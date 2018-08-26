@@ -21,6 +21,12 @@ class Calculator {
             case "-":
                 result = a - b;
                 break;
+            case "*":
+                result = a * b;
+                break;
+            case "/":
+                result = a / b;
+                break;
             default:
                 return "ERROR";
         }
@@ -34,6 +40,11 @@ class Calculator {
                 break;
             case "-":
                 result = result - c;
+            case "*":
+                result = result * c;
+                break;
+            case "/":
+                result = result / c;
                 break;
             default:
                 return "ERROR";
